@@ -34,18 +34,11 @@
         .mobile-menu ul {
             padding: 0;
             list-style: none;
-            margin: 24px 0 16px;
+            margin: 24px 0 0;
         }
-        .main-container ul:nth-child(1) {
+        .mobile-menu ul:nth-child(1) {
             border-bottom: 1px solid var(--very-light-pink);
-        }
-        .mobile-menu ul:last-child {
-            position: absolute;
-            bottom: 0;
             
-        }
-        .main-container ul:nth-child(2) {
-            margin-top: 36px;
         }
         .mobile-menu ul li {
             margin-bottom: 24px;
@@ -53,26 +46,16 @@
         .mobile-menu .email {
             font-size: var(--sm);
             font-weight: 300 ;
-            margin-bottom: 8px;
         }
         .mobile-menu .sign-out {
             color: var(--hospital-green);
             font-size: var(--sm);
         }
 
-        .a-bottom ul {
-            display: flex;
-            flex-direction: column;
-            margin-bottom: 40px;
-            border: none !important;
-        }
-        .a-bottom ul li {
-            margin-bottom: 4px ;
-        }
     </style>
 </head>
 <body>
-    <div class="mobile-menu main-container">
+    <div class="mobile-menu">
         <ul>
             <li>
                 <a href="/">CATEGORIES</a>
@@ -105,7 +88,7 @@
                 <a href="/">My account</a>
             </li>
         </ul>
-    <div class="a-bottom">  
+         
         <ul>
             <li>
                 <a href="/" class="email">example@YardSale.com</a>
